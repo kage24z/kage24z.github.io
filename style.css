@@ -1,6 +1,6 @@
 body {
     min-height: 100vh;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     display: grid;
     place-items: center;
 }
@@ -42,7 +42,7 @@ body {
   }
 
 .calculadora {
-    background-color: rgb(20, 22, 51);
+    background-color: #090c31;
     color: white;
     width: 350px;
     max-width: 100%;
