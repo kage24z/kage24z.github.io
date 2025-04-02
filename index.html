@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+ <div class="calculadora">
+    <div class="pantalla">0</div>
+
+    <button id="C" class="btn">C</button>
+    <button id="borrar" class="btn">←</button>
+    <button class="btn">/</button>
+    <button class="btn">*</button>
+    <button class="btn">7</button>
+    <button class="btn">8</button>
+    <button class="btn">9</button>
+    <button class="btn">-</button>
+    <button class="btn">4</button>
+    <button class="btn">5</button>
+    <button class="btn">6</button>
+    <button class="btn">+</button>
+    <button class="btn">1</button>
+    <button class="btn">2</button>
+    <button class="btn">3</button>
+    <button id="igual" class="btn">=</button>
+    <button id="cero" class="btn">0</button>
+    <button class="btn">.</button>
+ </div>
+
+ <label for="category">Selecciona una categoría de conversión:</label>
+ <select id="category">
+   <option value="masa">Masa</option>
+   <option value="volumen">Volumen</option>
+   <option value="distancia">Distancia</option>
+   <option value="densidad">Densidad</option>
+   <option value="presion">Presión</option>
+   <option value="tiempo">Tiempo</option>
+   <option value="fuerza">Fuerza</option>
+   <option value="energia">Energía</option>
+ </select>
+
+ <label for="unitInput">Elige la unidad de entrada:</label>
+    <select id="unitInput"></select>
+
+    <input type="number" id="valueInput" placeholder="Ingresa el valor">
+    <button id="convertButton">Convertir</button>
+
+    <div id="results">
+        <h2>Resultados:</h2>
+        <p><span id="result1"></span></p>
+        <p><span id="result2"></span></p>
+        <p><span id="result3"></span></p>
+        <p><span id="result4"></span></p>
+        <p><span id="result5"></span></p>
+      </div>
+    </div>
+  
+
+ 
+
+    
+ </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>    
